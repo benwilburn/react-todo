@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import './App.css';
 import { Form, Input, List } from './components'
 
-class App extends Component {
+class App extends PureComponent {
   state = {
     term: '',
     items: [],
